@@ -1,0 +1,104 @@
+nav li:first-child{
+    font-size: larger;
+    font-weight:700;
+}
+
+.hero-banner a {
+    background-color: #f7a542;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 550 ;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.infocard-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin: 1.2em;
+}
+
+.info-card{
+    border: 1px solid #284474;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.infocard-title{
+    color: #F0F8FF;
+    background-color: #284474;
+    padding: 1.5em;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+.people-working-img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+
+article p {
+    padding: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.about-us p, .about-us h3{
+    font-weight: 2.5em;
+    font-size: 1.2em;
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+
+.main-headings{
+    font-weight: 2em;
+    font-size: 2.5em;
+    margin: 1.2em 1.6em;
+}
+
+/*smaller phones*/
+
+@media (max-width : 365px){
+    main .infocard-container{
+        grid-template-columns: auto;
+        
+    }
+}
+
+/*larger screens like Desktops*/
+
+@media (min-width : 860px){
+    main .infocard-container{
+        grid-template-columns: auto auto auto auto;
+        
+    }
+
+    main .people-working-img{
+        float: left;
+        width: 45%;
+        margin: 0 1.2em 0 10px;
+    }
+
+    figcaption{
+        text-align: start;
+    }
+    
+    .about-us p {
+       width: 95%;
+       font-weight: 500;
+       line-height: 1.5em;
+    }
+
+    .hero-banner a:hover{
+        color: #F5F5F5;
+    }
+}
+

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #284474 ;
+    padding: 15px
+
+}
+header li, header a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #F0F8FF;
+    font-weight: 550;
+    font-size: 16;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 10px
+}
+
+.logo{
+    font-family:fantasy;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.nav-links li{
+    display: inline-block;
+}
+
+.hero-banner{
+    background-image: url(../images/rainbow-vortex.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover ;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 15%;
+    padding-left: 10%;
+    font-size: 2em;
+    color: #F0F8FF;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-weight: bolder;
+    padding: 15px 0;
+    position: relative;
+    bottom:  0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

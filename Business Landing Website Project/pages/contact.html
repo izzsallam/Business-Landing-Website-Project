@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="landing page website for PalWep company">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/CntactUsPage.css">
+    <title>PalWeb</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html">PalWeb</a>
+        <nav>
+            <ul class="nav-links" id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <h1>Contact us</h1>
+        </section>
+        <section class="contact-info-container">
+            <div class="contact-details">
+                <h2>Contact Details</h2>
+                <ul>
+                   <li> <a href="mailto: #" title="email us">contac@palwep.com</a></li>
+                    <li><a href="tel:#" title="call us">(555)555 555 555</a></li>
+                </ul>
+                <h3>Central HQ</h3>
+                <ul>
+                    <address>
+                        <li>87 Hifa St.</li>
+                        <li>Al-yamoun, Jenin</li>
+                    </address>
+                </ul>
+            </div>
+            <form method="post">
+                <h2>Online Inquiry</h2>
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" minlength="4" maxlength="20" placeholder="e.g John smith" autocomplete="name" required>
+                </div> 
+                <div>   
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="e.g name@domain.tld" autocomplete="email" required>
+                </div>   
+                <label for="message">Message</label>
+                <textarea id="message" name="message" columns="10" type="text" minlength="20" maxlength="500" placeholder="Type your message here (between 20 and 500 charachters)" required></textarea>
+                <div class="button-container"> 
+                    <button type="submit" id="send" >SEND</button>
+                    <button type="reset" id="reset">RESET</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright PalWeb Inc. <time datetime="2025">2025</time>. Developed by Izzeldeen Sallam.
+    </footer>
+</body>
+</html>
